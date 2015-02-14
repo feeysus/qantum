@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#2dbe60</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item> 
+    </style>
+    
+    <style name="MyActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+	     <item name="android:textColor">#fff</item>
+	</style>
+
+    
+    <style name="BottomBarTextStyle">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#2dbe60</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    
+    <style name="TextBig">
+        <item name="android:textSize">20dip</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+ 
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">护林员</string>
+    <string name="url_server">http://</string>
+    <string name="record_pwd">记住密码</string>
+    <string name="login_auto">自动登录</string>
+
+</resources>
